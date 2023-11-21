@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.svg-container-graph-id{
+  height: 100vh;
+  width: 100vw;
+}
+
+:where(.css-dev-only-do-not-override-2i2tap).ant-layout .ant-layout-sider{
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+
+
+}
+:where(.css-dev-only-do-not-override-2i2tap)[class^="ant-layout"] [class^="ant-layout"], :where(.css-dev-only-do-not-override-2i2tap)[class*=" ant-layout"] [class^="ant-layout"], :where(.css-dev-only-do-not-override-2i2tap)[class^="ant-layout"] [class*=" ant-layout"], :where(.css-dev-only-do-not-override-2i2tap)[class*=" ant-layout"] [class*=" ant-layout"]{
+  background-color: white
+}
+
+.ant-layout-sider-trigger{
+  background-color: #0EBE7F !important;
+}
+
+:where(.css-dev-only-do-not-override-2i2tap).ant-menu-light .ant-menu-item-selected, :where(.css-dev-only-do-not-override-2i2tap).ant-menu-light>.ant-menu .ant-menu-item-selected{
+  background-color: rgba(14, 190, 127, 0.20);
+  color: #0EBE7F;
+  font-weight: 500;
+}
+
+:where(.css-dev-only-do-not-override-2i2tap).ant-upload-wrapper .ant-upload-drag{
+  height: 20rem;
+  width: 100%;
+  margin-top: 2rem;
+  padding-inline: 10rem;
+}
+
+:where(.css-dev-only-do-not-override-2i2tap).ant-upload-wrapper .ant-upload-drag p.ant-upload-drag-icon .anticon{
+  color:#0EBE7F ;
+}
+:where(.css-dev-only-do-not-override-2i2tap).ant-upload-wrapper .ant-upload-drag{
+  background-color: rgba(14, 190, 127, 0.20);
+}
+
+svg {
+ width: 100% !important;
+ height: 100% !important;
+
+}
+#graph-id-graph-wrapper {
+  width: 100%;
+  height: 100vh;
+
+}
+
+
+.ant-modal-footer{
+  display: none;
+}
