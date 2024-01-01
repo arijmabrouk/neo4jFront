@@ -18,11 +18,11 @@ const CardComponent = (props) => {
 
           backgroundColor:
             selectedType === name
-              ? "#0EBE7F"
+              ? "#2d6c8c"
               : "transparent",
           border:
             selectedType === name
-              ? `1px solid #0EBE7F`
+              ? `1px solid #2d6c8c`
               : " 1px solid lightgray",
           borderRadius: "1rem",
           height: "8rem",

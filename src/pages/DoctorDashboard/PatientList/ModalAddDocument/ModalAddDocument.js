@@ -63,24 +63,25 @@ const ModalAddDocument = (props) => {
         <Dragger
           onChange={(e) => {
             const fileType = e.file.type;
-            const acceptedTypes = [
-              "image/png",
-              "image/jpeg",
-              "application/pdf",
-            ];
+            // const acceptedTypes = [
+            //   "image/png",
+            //   "image/jpeg",
+            //   "application/pdf",
+            //   "application/csv"
+            // ];
 
-            if (!acceptedTypes.includes(fileType)) {
-              notification.error({
-                message: "Erreur",
-                duration: 4,
-                closable: true,
-                description: "Type Fichier non valide.",
-              });
-              return false; // Prevent the file from being uploaded
-            } else {
+            // if (!acceptedTypes.includes(fileType)) {
+            //   notification.error({
+            //     message: "Erreur",
+            //     duration: 4,
+            //     closable: true,
+            //     description: "Type Fichier non valide.",
+            //   });
+            //   return false; // Prevent the file from being uploaded
+            // } else {
               //   handleChange1(e, type);
               setFiles(e);
-            }
+            // }
           }}
           customRequest={dummyRequest}
           accept="image/png, image/jpeg, application/pdf"

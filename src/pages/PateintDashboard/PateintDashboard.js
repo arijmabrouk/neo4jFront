@@ -48,6 +48,7 @@ const PateintDashboard = () => {
     localStorage.clear()
     sessionStorage.clear()
   }
+  let user=JSON.parse(sessionStorage.getItem("patientInfo"))
   return (
     <>
       {/* <Header /> */}
@@ -65,8 +66,8 @@ const PateintDashboard = () => {
           <div className="demo-logo-vertical" />
 
           <Row style={{display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",marginBlock:"2rem"}}>
-          <Avatar style={{ backgroundColor: '#0EBE7F',marginBottom:"0.5rem" }} icon={<UserOutlined />} />
-           {form.getFieldsValue()["nom"] + " "+ form.getFieldsValue()["prenom"]}
+          <Avatar style={{ backgroundColor: '#2d6c8c',marginBottom:"0.5rem" }} icon={<UserOutlined />} />
+           {user.nom + " "+ user.prenom}
           </Row>
 
           <Menu

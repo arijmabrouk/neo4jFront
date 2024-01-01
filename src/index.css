@@ -29,12 +29,13 @@ code {
 }
 
 .ant-layout-sider-trigger{
-  background-color: #0EBE7F !important;
+  background-color: #2d6c8c !important;
+  padding: 0.5rem;
 }
 
 :where(.css-dev-only-do-not-override-2i2tap).ant-menu-light .ant-menu-item-selected, :where(.css-dev-only-do-not-override-2i2tap).ant-menu-light>.ant-menu .ant-menu-item-selected{
   background-color: rgba(14, 190, 127, 0.20);
-  color: #0EBE7F;
+  color: #2d6c8c;
   font-weight: 500;
 }
 
@@ -46,7 +47,7 @@ code {
 }
 
 :where(.css-dev-only-do-not-override-2i2tap).ant-upload-wrapper .ant-upload-drag p.ant-upload-drag-icon .anticon{
-  color:#0EBE7F ;
+  color:#2d6c8c ;
 }
 :where(.css-dev-only-do-not-override-2i2tap).ant-upload-wrapper .ant-upload-drag{
   background-color: rgba(14, 190, 127, 0.20);
@@ -66,4 +67,8 @@ svg {
 
 .ant-modal-footer{
   display: none;
+}
+
+.ant-layout-sider-trigger{
+  display :none;
 }

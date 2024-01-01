@@ -23,7 +23,7 @@ const Header = () => {
         Premier parcours pour le docteur 100% digital
       </Col>
       <Col lg={4} md={24} sm={24} xs={24} className={classes.headerLogo}>
-        <img src={logo} />
+        <img src={logo}  />
       </Col>
     </Row>
 //   </div>

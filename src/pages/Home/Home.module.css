@@ -17,6 +17,7 @@
     border-top: 6px solid transparent;
     border-radius: 100%;
     animation: spin 2s linear infinite;
+    
 }
 
 @keyframes spin {
@@ -29,7 +30,7 @@
 }
 
 .getStartedBtn{
-    background-color: #0EBE7F;
+    background-color: #2d6c8c;
     border-radius: 0.5rem;
     width: 20rem;
     color: white;

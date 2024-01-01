@@ -12,13 +12,11 @@ const navigate=useNavigate()
   return (
     <Row className={classes.homeSplashScreen}>
          <Col>
-         <img  src={logo} className={classes.loaderLogo}/>
+         <img  src={logo} />
          </Col>
+        
          <Col>
-         <h1>Doctor Online</h1>
-         </Col>
-         <Col>
-         <Button className={classes.getStartedBtn} onClick={handleClick}>Get Started</Button>
+         <Button className={classes.getStartedBtn} onClick={handleClick}>Commencer</Button>
          </Col>
     </Row>
   )
